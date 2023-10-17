@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Nunito Sans';
-    background-color: aliceblue;
+    background-color: white;
 }
 
 header h1 {  
@@ -17,8 +17,8 @@ header h1 {
 }
 
 header {
-    background-image: linear-gradient(to bottom right, #565c84, #EF7DF0);;
-    color: #fff;   
+    background-color: white;
+    color: #151313;   
     padding: 15px;
 }
 
@@ -31,12 +31,21 @@ nav ul {
 nav li {
     display: inline; 
     margin: 0 10px; 
+    font-weight: bold;
 } 
+
+nav li.button {
+    text-align: right;
+    background-color: rgb(137, 84, 206);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
 nav a {
     text-decoration: none; 
     font-weight: bold; 
-    color: #fff; 
+    color: #242222; 
 }
 
 .container {
