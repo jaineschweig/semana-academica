@@ -1,53 +1,206 @@
   @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@1,6..12,500&display=swap');
 
-* {
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box; 
-}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-body{
+  :root{
     font-family: 'Nunito Sans';
-    background-color: white;
-}
+  }
 
-header h1 {  
+  body {
+    font-family: var(--font-principal);
+    
+    background-color: white;
+  }
+
+  header {
+    background-color: white;
+    color: #151313;
+    padding: 15px;
+  }
+
+  nav h1 {
     text-align: right;
     padding-right: 20px;
-}
+  }
 
-header {
-    background-color: white;
-    color: #151313;   
-    padding: 15px;
-}
-
-nav ul {
-    list-style: none; 
+  nav ul {
+    list-style: none;
     text-align: left;
     padding-left: 20px;
-}
+  }
 
-nav li {
-    display: inline; 
-    margin: 0 10px; 
+  nav li {
+    display: inline;
+    margin: 0 10px;
     font-weight: bold;
-} 
+  }
 
-nav li.button {
+  .btn {
     text-align: right;
     background-color: rgb(137, 84, 206);
     border-radius: 10px;
     padding: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+    box-shadow: 0 2px 4px rgba(55, 5, 88, 0.1);
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: rgb(107, 58, 172);
+  }
 
-nav a {
-    text-decoration: none; 
-    font-weight: bold; 
-    color: #242222; 
-}
+  nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #242222;
+  }
 
-.container {
+  main {
+    padding: 20px;
+    overflow: hidden;
+  }
+
+  .container {
     display: inline;
-}
+  }
+
+
+  .container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  form {
+    overflow: hidden;
+  }
+
+  form fieldset {
+    border: 1px solid #7105a3;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: #151313;
+  }
+
+  form legend {
+    
+    color: #7b4694;
+  }
+
+  .input-container {
+    margin-bottom: 10px;
+  }
+
+  .input-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #555;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    height: 120px;
+  }
+
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+    background-color: rgb(137, 84, 206);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+
+  button[type="reset"] {
+    background-color: #6a7783;
+  }
+
+
+  button:hover {
+    background-color: rgb(95, 58, 143);
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding-right: 10px;
+  }
+
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 24.99%;
+  }
+
+  .col-4 {
+    width: 33.32%;
+  }
+
+  .col-5 {
+    width: 41.65%;
+  }
+
+  .col-6 {
+    width: 49.98%;
+  }
+
+  .col-7 {
+    width: 58.31%;
+  }
+
+  .col-8 {
+    width: 66.64%;
+  }
+
+  .col-9 {
+    width: 74.97%;
+  }
+
+  .col-10 {
+    width: 83.3%;
+  }
+
+  .col-11 {
+    width: 91.63%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+
+  h2 {
+    padding: 40px;
+    text-align: center;
+  }
