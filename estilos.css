@@ -102,6 +102,10 @@
     font-size: 14px;
   }
 
+  .fundo {
+    background: #7b4694;
+  }
+
   input[type="text"],
   input[type="email"],
   input[type="number"] {
@@ -147,60 +151,79 @@
     background-color: rgb(95, 58, 143);
   }
 
+  .aliamento {
+    text-align: center;
+    display: flex;
+
+  }
+
+  .aliamento img{
+   
+    float: right;
+  }
+
   [class*="col-"] {
     float: left;
-    padding-right: 10px;
-  }
-
-  .col-1 {
-    width: 8.33%;
-  }
-
-  .col-2 {
-    width: 16.66%;
-  }
-
-  .col-3 {
-    width: 24.99%;
-  }
-
-  .col-4 {
-    width: 33.32%;
-  }
-
-  .col-5 {
-    width: 41.65%;
-  }
-
-  .col-6 {
-    width: 49.98%;
-  }
-
-  .col-7 {
-    width: 58.31%;
-  }
-
-  .col-8 {
-    width: 66.64%;
-  }
-
-  .col-9 {
-    width: 74.97%;
-  }
-
-  .col-10 {
-    width: 83.3%;
-  }
-
-  .col-11 {
-    width: 91.63%;
-  }
-
-  .col-12 {
-    width: 100%;
-  }
+    padding-right: 10px;}
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 24.99%;}
+  .col-4 {width: 33.32%;}
+  .col-5 {width: 41.65%;}
+  .col-6 {width: 49.98%;}
+  .col-7 {width: 58.31%;}
+  .col-8 {width: 66.64%;}
+  .col-9 {width: 74.97%;}
+  .col-10 {width: 83.3%;}
+  .col-11 {width: 91.63%;}
+  .col-12 {width: 100%;}
 
   h2 {
     padding: 40px;
     text-align: center;
   }
+
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.game-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.game-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.game-card h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.game-card p {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.game-card a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.game-card a:hover {
+    color: #cc5500;
+}
