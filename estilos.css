@@ -229,3 +229,19 @@
 .game-card a:hover {
     color: #cc5500;
 }
+
+table {
+  width: 90%;
+  padding-left: 150px;
+  padding-top: 20px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
