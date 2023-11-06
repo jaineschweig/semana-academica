@@ -40,7 +40,6 @@
   }
 
   .btn {
-    text-align: right;
     background-color: rgb(137, 84, 206);
     border-radius: 10px;
     padding: 5px;
@@ -48,6 +47,20 @@
     cursor: pointer;
   }
   .btn:hover {
+    background-color: rgb(107, 58, 172);
+  }
+
+  .bton{
+    background-color: rgb(137, 84, 206);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(55, 5, 88, 0.1);
+    cursor: pointer;
+    float: right;
+    text-decoration: none;
+  }
+
+  .bton:hover {
     background-color: rgb(107, 58, 172);
   }
 
@@ -68,7 +81,7 @@
 
 
   .container {
-    width: 1140px;
+    width: 100%;
     max-width: 100%;
     margin: auto;
     padding: 20px;
@@ -94,7 +107,7 @@
   }
 
   .input-container {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 
   .input-container label {
@@ -105,7 +118,8 @@
   }
 
   .fundo {
-    background: #7b4694;
+    background-color: #7b4694;
+    padding-bottom: 380px;
   }
 
   input[type="text"],
@@ -160,9 +174,9 @@
   }
 
   .aliamento img{
-   
     float: right;
   }
+
 
   [class*="col-"] {
     float: left;
@@ -178,7 +192,7 @@
   .col-9 {width: 74.97%;}
   .col-10 {width: 83.3%;}
   .col-11 {width: 91.63%;}
-  .col-12 {width: 100%;}
+  .col-12 {width: 99%;}
 
   h2 {
     padding: 30px;
@@ -199,6 +213,7 @@
     padding: 20px;
     margin: 20px auto;
     text-align: center;
+    
 }
 
 .game-card img {
@@ -222,16 +237,15 @@
 }
 
 .game-card a {
-    color: #ff6600;
-    text-decoration: none;
+    color: rgb(108, 78, 155)
 }
 
 .game-card a:hover {
-    color: #cc5500;
+    color: rgb(83, 60, 121);
 }
 
 table {
-  width: 90%;
+  width: 100%;
   padding-left: 150px;
   padding-top: 20px;
   padding-bottom: 30px;
@@ -240,9 +254,32 @@ table {
 th, td {
   padding: 8px;
   text-align: center;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ad97ca;
 }
 
 th {
-  background-color: #f2f2f2;
+  background-color: #d3bdf1;
+}
+
+/* footer{
+  background-color: rgb(83, 60, 121);
+  text-align: center;
+  padding: 20px;
+} */
+
+
+footer {
+  clear: both;
+  position: relative;
+  height: 50px;
+  margin-top: -100px;
+  text-align: center;
+
+  background-color: rgb(83, 60, 121);
+
+}
+
+#jogoseletronicos {
+ 
+  
 }
