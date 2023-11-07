@@ -43,7 +43,7 @@
     background-color: rgb(137, 84, 206);
     border-radius: 10px;
     padding: 5px;
-    box-shadow: 0 2px 4px rgba(55, 5, 88, 0.1);
+    box-shadow: 0 2px 4px rgba(55, 5, 88, 0.3);
     cursor: pointer;
   }
   .btn:hover {
@@ -54,9 +54,11 @@
     background-color: rgb(137, 84, 206);
     border-radius: 10px;
     padding: 5px;
-    box-shadow: 0 2px 4px rgba(55, 5, 88, 0.1);
+    box-shadow: 0 2px 4px rgba(55, 5, 88, 0.3);
     cursor: pointer;
     float: right;
+  }
+  .bton a{
     text-decoration: none;
   }
 
@@ -207,12 +209,14 @@
 
 .game-card {
     width: 300px;
-    background-color: #fff;
+    background-color: #e1d5f0;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     padding: 20px;
-    margin: 20px auto;
+    margin: 80px ;
     text-align: center;
+    display: inline-block;
+    
     
 }
 
@@ -222,6 +226,10 @@
     border-radius: 5px;
     object-fit: cover;
     margin-bottom: 10px;
+}
+
+.game-card a {
+  text-decoration: none;
 }
 
 .game-card h2 {
@@ -244,6 +252,8 @@
     color: rgb(83, 60, 121);
 }
 
+
+
 table {
   width: 100%;
   padding-left: 150px;
@@ -261,14 +271,14 @@ th {
   background-color: #d3bdf1;
 }
 
-/* footer{
+ footer{
   background-color: rgb(83, 60, 121);
   text-align: center;
   padding: 20px;
-} */
+} 
 
 
-footer {
+.footer {
   clear: both;
   position: relative;
   height: 50px;
@@ -279,7 +289,16 @@ footer {
 
 }
 
-#jogoseletronicos {
- 
-  
+.carousel {
+  padding-top: 50px;
+  background: #ffffff;
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 450px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
 }

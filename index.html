@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VIII Semana Academica</title>
     <link rel="icon" type="image/x-icon" href="img/logotipo-removebg-preview.png">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="estilos.css">
 </head>
 
@@ -21,7 +22,7 @@
                     <li><a href="index.html">Maratona</a></li>
                     <li><a href="#jogoseletronicos">Jogos Eletrônicos</a></li>
                     <li><a href="cronograma.html">Cronograma</a></li>
-                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#fotos">Fotos</a></li>
                     <li class="btn"><a href="inscreva.html">Inscreva-se</a></li>
                 </ul>
             </nav>
@@ -68,7 +69,21 @@
             </div>
         </div>
     </div>
-
+    <div id="fotos">
+        <h2>Fotos</h2>
+        <div class="carousel" data-flickity='{ "wrapAround": true }'>
+            <div class="carousel-cell" style="background-image: url(img/48996758853_d0271a0326_b_49023308303_o.jpg);">
+            </div>
+            <div class="carousel-cell" style="background-image: url(img/48997508822_4d2f628da8_b_49024032357_o.jpg);">
+            </div>
+            <div class="carousel-cell" style="background-image: url(img/20180614_134503_48196127776_o.jpg);"></div>
+            <div class="carousel-cell" style="background-image: url(img/48997493877_5cb4ec01b6_b_49023305398_o.jpg);">
+            </div>
+            <div class="carousel-cell" style="background-image: url(img/48997474902_203b83d86b_b_49023305918_o.jpg);">
+            </div>
+        </div>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    </div>
 
     <div class="col-12">
         <div id="jogoseletronicos">
@@ -96,11 +111,11 @@
         </div>
     </div>
 
-    
+
 
 </body>
 
-<footer>
+<footer class="footer">
     <p><b>&copy; 2023 VIII Semana Academica de Informática | Criado por Evellyn Izadora e Jaine Schweig</b></p>
 </footer>
 
